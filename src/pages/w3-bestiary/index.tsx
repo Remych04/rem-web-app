@@ -2,14 +2,15 @@ import React from 'react';
 
 import bestiaryList from '../../mocks/bestiary-list.json';
 import { BestiaryDto } from '../../data/BestiaryDto';
+import { MonsterCategory } from '../../components/monster-list/MonsterCategory';
 
 export function W3Bestiary() {
-    const bestiary: BestiaryDto = JSON.parse(JSON.stringify(bestiaryList));
+    const bestiaryDto: BestiaryDto = JSON.parse(JSON.stringify(bestiaryList));
 
     return (
         <React.Fragment>
-            {bestiary.beasts.map((beast, index) => {
-                return <div key={index}>{beast}</div>;
+            {bestiaryDto.bestiary_list.map((category, index) => {
+                return <MonsterCategory key={index} category={category} />;
             })}
         </React.Fragment>
     );

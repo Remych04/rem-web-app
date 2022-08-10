@@ -1,13 +1,587 @@
 {
-  "beasts": [
-    "Bears",
-    "Big Bad Wolf",
-    "Dogs",
-    "Panthers",
-    "The Beast of Beauclair",
-    "Three Little Pigs",
-    "Wild boars",
-    "Wolves",
-    "Wargs"
+  "bestiary_list": [
+    {
+      "type": "Beasts",
+      "monster_list": [
+        {
+          "name": "Bears",
+          "edition": "BASE"
+        },
+        {
+          "name": "Big Bad Wolf",
+          "edition": "BAW"
+        },
+        {
+          "name": "Dogs",
+          "edition": "BASE"
+        },
+        {
+          "name": "Panthers",
+          "edition": "BAW"
+        },
+        {
+          "name": "The Beast of Beauclair",
+          "edition": "BAW"
+        },
+        {
+          "name": "Three Little Pigs",
+          "edition": "BAW"
+        },
+        {
+          "name": "Wild boars",
+          "edition": "HOS"
+        },
+        {
+          "name": "Wolves",
+          "edition": "BASE"
+        },
+        {
+          "name": "Wargs",
+          "edition": "BASE"
+        }
+      ]
+    },
+    {
+      "type": "Cursed Ones",
+      "monster_list": [
+        {
+          "name": "Archespores",
+          "edition": "BAW"
+        },
+        {
+          "name": "Berserkers",
+          "edition": "BASE"
+        },
+        {
+          "name": "Botchlings",
+          "edition": "BASE"
+        },
+        {
+          "name": "Lubberkin",
+          "edition": "BASE"
+        },
+        {
+          "name": "The Toad Prince",
+          "edition": "HOS"
+        },
+        {
+          "name": "Ulfhedinn",
+          "edition": "BASE"
+        },
+        {
+          "name": "Werewolves",
+          "edition": "BASE"
+        }
+      ]
+    },
+    {
+      "type": "Draconids",
+      "monster_list": [
+        {
+          "name": "Basilisks",
+          "edition": "BASE"
+        },
+        {
+          "name": "Cockatrices",
+          "edition": "BASE"
+        },
+        {
+          "name": "Forktails",
+          "edition": "BASE"
+        },
+        {
+          "name": "Royal wyverns",
+          "edition": "BASE"
+        },
+        {
+          "name": "Shrieker",
+          "edition": "BASE"
+        },
+        {
+          "name": "Silver Basilisk ",
+          "edition": "BAW"
+        },
+        {
+          "name": "Slyzards ",
+          "edition": "BAW"
+        },
+        {
+          "name": "Slyzard Matriarchs",
+          "edition": "BAW"
+        },
+        {
+          "name": "The Dragon of Fyresdal",
+          "edition": "BASE"
+        },
+        {
+          "name": "Wyverns",
+          "edition": "BASE"
+        }
+      ]
+    },
+    {
+      "type": "Elementa",
+      "monster_list": [
+        {
+          "name": "Djinn",
+          "edition": "BASE"
+        },
+        {
+          "name": "Earth Elemental",
+          "edition": "BASE"
+        },
+        {
+          "name": "Gargoyle",
+          "edition": "BASE"
+        },
+        {
+          "name": "Golem",
+          "edition": "BASE"
+        },
+        {
+          "name": "Hound of the Wild Hunt",
+          "edition": "BASE"
+        },
+        {
+          "name": "Ice Elemental",
+          "edition": "BASE"
+        },
+        {
+          "name": "Moreau's Golem",
+          "edition": "BAW"
+        },
+        {
+          "name": "Pixies",
+          "edition": "BAW"
+        },
+        {
+          "name": "The Apiarian Phantom",
+          "edition": "BASE"
+        },
+        {
+          "name": "Therazane",
+          "edition": "BASE"
+        }
+      ]
+    },
+    {
+      "type": "Hybrids",
+      "monster_list": [
+        {
+          "name": "Ekhidna",
+          "edition": "BASE"
+        },
+        {
+          "name": "Erynia",
+          "edition": "BASE"
+        },
+        {
+          "name": "Griffin",
+          "edition": "BASE"
+        },
+        {
+          "name": "Harpy",
+          "edition": "BASE"
+        },
+        {
+          "name": "Melusine",
+          "edition": "BASE"
+        },
+        {
+          "name": "Opinicus",
+          "edition": "BASE"
+        },
+        {
+          "name": "Salma",
+          "edition": "BASE"
+        },
+        {
+          "name": "Siren",
+          "edition": "BASE"
+        },
+        {
+          "name": "Succubus",
+          "edition": "BASE"
+        }
+      ]
+    },
+    {
+      "type": "Insectoids",
+      "monster_list": [
+        {
+          "name": "Arachasae",
+          "edition": "BASE"
+        },
+        {
+          "name": "Arachnomorphs",
+          "edition": "HOS"
+        },
+        {
+          "name": "Armored arachasae",
+          "edition": "BASE"
+        },
+        {
+          "name": "Endrega drones",
+          "edition": "BASE"
+        },
+        {
+          "name": "Endrega warriors",
+          "edition": "BASE"
+        },
+        {
+          "name": "Endrega workers",
+          "edition": "BASE"
+        },
+        {
+          "name": "Giant centipedes",
+          "edition": "BAW"
+        },
+        {
+          "name": "Harrisi",
+          "edition": "BASE"
+        },
+        {
+          "name": "Kikimore",
+          "edition": "BAW"
+        },
+        {
+          "name": "Kikimore workers",
+          "edition": "BAW"
+        },
+        {
+          "name": "Pale Widows",
+          "edition": "BAW"
+        },
+        {
+          "name": "Sandcrabs",
+          "edition": "BASE"
+        },
+        {
+          "name": "Venomous arachasae",
+          "edition": "BASE"
+        }
+      ]
+    },
+    {
+      "type": "Necrophages",
+      "monster_list": [
+        {
+          "name": "Abaya",
+          "edition": "BASE"
+        },
+        {
+          "name": "Alghoul",
+          "edition": "BASE"
+        },
+        {
+          "name": "Devourer",
+          "edition": "BASE"
+        },
+        {
+          "name": "Drowner",
+          "edition": "BASE"
+        },
+        {
+          "name": "Drowned dead",
+          "edition": "BASE"
+        },
+        {
+          "name": "Foglet",
+          "edition": "BASE"
+        },
+        {
+          "name": "Ghoul",
+          "edition": "BASE"
+        },
+        {
+          "name": "Grave hag",
+          "edition": "BASE"
+        },
+        {
+          "name": "Ignis Fatuus",
+          "edition": "BASE"
+        },
+        {
+          "name": "Mourntart",
+          "edition": "BASE"
+        },
+        {
+          "name": "Mucknixer",
+          "edition": "BASE"
+        },
+        {
+          "name": "Rotfiend",
+          "edition": "BASE"
+        },
+        {
+          "name": "Scurver",
+          "edition": "BAW"
+        },
+        {
+          "name": "Spotted wight",
+          "edition": "BAW"
+        },
+        {
+          "name": "Water hag",
+          "edition": "BASE"
+        },
+        {
+          "name": "Wight",
+          "edition": "BAW"
+        }
+      ]
+    },
+    {
+      "type": "Ogroids",
+      "monster_list": [
+        {
+          "name": "Cloud Giant",
+          "edition": "BAW"
+        },
+        {
+          "name": "Cyclopses",
+          "edition": "BASE"
+        },
+        {
+          "name": "Golyat",
+          "edition": "BAW"
+        },
+        {
+          "name": "Hagubman",
+          "edition": "BASE"
+        },
+        {
+          "name": "Ice giant",
+          "edition": "BASE"
+        },
+        {
+          "name": "Ice troll",
+          "edition": "BASE"
+        },
+        {
+          "name": "Nekkers",
+          "edition": "BASE"
+        },
+        {
+          "name": "Rock troll",
+          "edition": "BASE"
+        },
+        {
+          "name": "Wham-a-Wham",
+          "edition": "BASE"
+        }
+      ]
+    },
+    {
+      "type": "Relicts",
+      "monster_list": [
+        {
+          "name": "Chorts",
+          "edition": "BASE"
+        },
+        {
+          "name": "Crones",
+          "edition": "BASE"
+        },
+        {
+          "name": "Doppler",
+          "edition": "BASE"
+        },
+        {
+          "name": "Fiends",
+          "edition": "BASE"
+        },
+        {
+          "name": "Fugas",
+          "edition": "BASE"
+        },
+        {
+          "name": "Godling",
+          "edition": "BASE"
+        },
+        {
+          "name": "Grottore",
+          "edition": "BAW"
+        },
+        {
+          "name": "Howler",
+          "edition": "BASE"
+        },
+        {
+          "name": "Imp",
+          "edition": "BASE"
+        },
+        {
+          "name": "Kernun",
+          "edition": "BASE"
+        },
+        {
+          "name": "Leshen",
+          "edition": "BASE"
+        },
+        {
+          "name": "Morvudd",
+          "edition": "BASE"
+        },
+        {
+          "name": "Shaelmaar",
+          "edition": "BAW"
+        },
+        {
+          "name": "Shaelmaar from the Emperor of Nilfgaard",
+          "edition": "BAW"
+        },
+        {
+          "name": "Spriggans",
+          "edition": "BAW"
+        },
+        {
+          "name": "Sylvans",
+          "edition": "BASE"
+        },
+        {
+          "name": "The Caretaker",
+          "edition": "HOS"
+        },
+        {
+          "name": "The Monster of Tufo ",
+          "edition": "BAW"
+        },
+        {
+          "name": "Wicked Witch",
+          "edition": "BAW"
+        },
+        {
+          "name": "Woodland Spirit",
+          "edition": "BASE"
+        }
+      ]
+    },
+    {
+      "type": "Specters",
+      "monster_list": [
+        {
+          "name": "Barghest",
+          "edition": "BAW"
+        },
+        {
+          "name": "Banshee",
+          "edition": "BAW"
+        },
+        {
+          "name": "Daphne's Wraith",
+          "edition": "BAW"
+        },
+        {
+          "name": "Devil by the Well",
+          "edition": "BASE"
+        },
+        {
+          "name": "Ethereal",
+          "edition": "HOS"
+        },
+        {
+          "name": "Hym",
+          "edition": "BASE"
+        },
+        {
+          "name": "Jenny o' the Woods",
+          "edition": "BASE"
+        },
+        {
+          "name": "Longlocks",
+          "edition": "BAW"
+        },
+        {
+          "name": "Nightwraith",
+          "edition": "BASE"
+        },
+        {
+          "name": "Noonwraith",
+          "edition": "BASE"
+        },
+        {
+          "name": "Penitent",
+          "edition": "BASE"
+        },
+        {
+          "name": "Plague maiden",
+          "edition": "BASE"
+        },
+        {
+          "name": "Umbra",
+          "edition": "BAW"
+        },
+        {
+          "name": "The White Lady",
+          "edition": "BASE"
+        },
+        {
+          "name": "The Wraith from the Painting",
+          "edition": "BASE"
+        },
+        {
+          "name": "Wraith",
+          "edition": "BASE"
+        }
+      ]
+    },
+    {
+      "type": "Vampires",
+      "monster_list": [
+        {
+          "name": "Alpha Garkain",
+          "edition": "BAW"
+        },
+        {
+          "name": "Alp",
+          "edition": "BAW"
+        },
+        {
+          "name": "Bruxa",
+          "edition": "BAW"
+        },
+        {
+          "name": "Dettlaff van der Eretein",
+          "edition": "BAW"
+        },
+        {
+          "name": "Ekimmara",
+          "edition": "BASE"
+        },
+        {
+          "name": "Fleder",
+          "edition": "BAW"
+        },
+        {
+          "name": "Gael",
+          "edition": "BASE"
+        },
+        {
+          "name": "Garkain",
+          "edition": "BAW"
+        },
+        {
+          "name": "Higher Vampire",
+          "edition": "BASE"
+        },
+        {
+          "name": "Katakan",
+          "edition": "BASE"
+        },
+        {
+          "name": "Protofleder",
+          "edition": "BAW"
+        },
+        {
+          "name": "Sarasti",
+          "edition": "BASE"
+        },
+        {
+          "name": "The Bruxa of Corvo Bianco",
+          "edition": "BAW"
+        }
+      ]
+    }
   ]
 }

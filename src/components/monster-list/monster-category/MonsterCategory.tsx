@@ -1,6 +1,6 @@
 import React from 'react';
-import { BestiaryCategory } from '../../data/BestiaryDto';
-import { MonsterCard } from './MonsterCard';
+import { BestiaryCategory } from '../../../data/BestiaryDto';
+import { MonsterCard } from '../monster-card/MonsterCard';
 
 type Props = {
     category: BestiaryCategory;

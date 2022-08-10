@@ -1,5 +1,5 @@
 import React from 'react';
-import { Monster } from '../../data/BestiaryDto';
+import { Monster } from '../../../data/BestiaryDto';
 
 type Props = {
     monster: Monster;

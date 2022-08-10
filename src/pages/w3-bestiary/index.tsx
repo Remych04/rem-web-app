@@ -2,7 +2,7 @@ import React from 'react';
 
 import bestiaryList from '../../mocks/bestiary-list.json';
 import { BestiaryDto } from '../../data/BestiaryDto';
-import { MonsterCategory } from '../../components/monster-list/MonsterCategory';
+import { MonsterCategory } from '../../components/monster-list/monster-category/MonsterCategory';
 
 export function W3Bestiary() {
     const bestiaryDto: BestiaryDto = JSON.parse(JSON.stringify(bestiaryList));
